@@ -17,7 +17,7 @@ body {
 
   } 
   #top {
-    height:540px;
+    height:440px;
     font-family: "Merriweather";
   }
   .row {
@@ -28,19 +28,22 @@ body {
   .row img:first-child {
     margin-bottom: 2.5%;
   }
-  .About {
+.About {
     background-color: white;
+    height: 70vh;
     padding: 10px;
     
-  }
-  .services {
-    background-image: url("images/s_image.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: black;
-    padding: 100px;
-  }
+}
+.services {
+  background-image: url("/home/hamisi/Desktop/delanistudio/images/s_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height:60vh;
+  padding-top: 3%;
+} 
+
   .About, .services {
     font-family: "Lora";
     padding: 150px;
@@ -90,9 +93,7 @@ body {
     font-family: "Poppins";
     font-weight: bold;
   }
-  #portfolio {
-    max-width: 80%;
-  }
+  
   #doings {
     width:85%;
   }
@@ -106,16 +107,15 @@ body {
     padding-top: 3%;
   }
   
-    
-  
-  form {
-    width:70%;
+  .form {
+    width:100%;
     margin-left: 15%;
     margin-top: -4%;
+    height: fit-content;
   }
   
   textarea {
-    margin-top: -10%;
+  
     opacity: 0.4;
   }
   textarea:hover {
@@ -159,3 +159,11 @@ body {
   .social-media div {
       display: inline !important;
   }
+  
+  
+
+
+.view .img-fluid
+{
+width: 250px;
+}
